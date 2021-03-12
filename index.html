@@ -50,7 +50,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
             cold_count = cold_count + 1;
         }
 	
-	function results calculator(){ 
+	function resultscalculator(){ 
 	var allergyPercent= allergy_count/6 * 100 
 	var coldPercent= cold_count/6 * 100
 	var ResultText = document.getElementById("Results");
@@ -190,14 +190,14 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	<div id="content" class="w3-container">
 	<p>Have you experienced any body aches?</p>
-		<a href="#results content"    onclick="allergyAdd();" class="w3-btn w3-black">  Yes</a>
-		<a href="#results content"    onclick="cooldAdd();" class="w3-btn w3-black">  No</a>
+		<a href="#resultscontent"    onclick="allergyAdd();" class="w3-btn w3-black">  Yes</a>
+		<a href="#resultscontent"    onclick="cooldAdd();" class="w3-btn w3-black">  No</a>
 	</div><!-- /content -->
 		
 	</div>
 </div>	
 
-	<div class="page" id="results content"> 
+	<div class="page" id="resultscontent"> 
 	<div class="w3-container w3-flat-carrot"> 
 		<h1>Results</h1> 
 
@@ -206,7 +206,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<div id="content" class="w3-container">
 		 <p id="Results"></p>
 		
-	<a href = "#results content" onclick="results calculator();" class="w3-btn w3-black"> Results</a> 
+	<a href = "#resultscontent" onclick="resultscalculator();" class="w3-btn w3-black"> Results</a> 
 	</div><!-- /content -->
 	
 </div>
